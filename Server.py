@@ -1,6 +1,6 @@
 import socket
 import getpass
-import speedtest
+import speedtest # Не работает без VPN
 import psutil
 
 name = getpass.getuser() # Получаем название Пк
